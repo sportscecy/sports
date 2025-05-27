@@ -1,0 +1,100 @@
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #262a2a;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+         #main-header {
+            width: 100%;
+            max-width: 800px;
+            background-color: #020639;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #main-header .header-link {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        #main-header .header-link:hover {
+            color: #FFA500;
+        }
+
+         .container {
+            height: 450px;
+            width: 100%;
+            max-width: 1000px;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+         table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: none;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #020639;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f7f7f7;
+        }
+
+        tr:hover {
+            background-color: #e0e0e0;
+            cursor: pointer;
+        }
+
+         .action-icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .action-icon:hover {
+            transform: scale(1.1);
+        }
+
+        .edit-icon {
+            filter: hue-rotate(90deg);
+        }
+
+        .delete-icon {
+            filter: hue-rotate(-30deg);
+        }
+ 

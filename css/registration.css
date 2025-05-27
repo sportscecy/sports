@@ -1,0 +1,118 @@
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: rgba(7, 6, 36, 0.9); 
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+         .container {
+            background: #1F1F1F;
+            border-radius: 10px;
+            padding: 40px;
+            width: 100%;
+            max-width: 380px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+        }
+
+         h2 {
+            font-size: 1.5em;
+            color: #66c7f4;
+            margin-bottom: 20px;
+        }
+
+         input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 14px;
+            margin: 10px 0;
+            border: 1px solid white;
+            border-radius: 6px;
+            background-color: #222;
+            color: #ffffff;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus, input[type="password"]:focus {
+            border-color: #66c7f4;
+        }
+
+         button[type="submit"], button[type="reset"] {
+            width: 45%;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #121212;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .signupbtn {
+            background-color: #66c7f4;
+            margin-right: 5%;
+        }
+
+        .signupbtn:hover {
+            background-color: #4aa2d9;
+            transform: translateY(-2px);
+        }
+
+        .cancelbtn {
+            background-color: #eff7ff;
+        }
+
+        .cancelbtn:hover {
+            background-color: #76bdff;
+            transform: translateY(-2px);
+        }
+
+
+
+        
+ .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: #FFFFFF; 
+    text-decoration: none; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    background-color: transparent;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    color: #FFCA28; 
+    transform: translateX(-3px); 
+}
+
+
+.back-button::before {
+    content: '←'; 
+    font-size: 20px; 
+}
+
+ 
+    

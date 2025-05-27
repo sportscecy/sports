@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+        <link rel="stylesheet" href="../css/login.css" />
+
+         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+   
+</head>
+<body>
+
+    <a href="../php/carro.php" class="back-button">Go Back</a>
+
+
+ 
+
+<div class="main-container">
+    <div class="imgcontainer">
+        <img src="../img/icono.png" alt="User" class="user">
+    </div>
+    <form action="../php/validate.php" method="POST">
+        <label for="username"><h2>User</h2></label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required maxlength="15">
+
+        <label for="password"><h2>Password</h2></label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required maxlength="8">
+        
+        <button type="submit" name="submit" id="btn_submit">Access</button>
+        
+        <a href="../php/registration.php">You don´t have an account? Register Here</a>
+    </form>
+</div>
+
+</body>
+</html>
